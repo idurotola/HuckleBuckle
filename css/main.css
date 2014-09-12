@@ -1,0 +1,161 @@
+/*******************************
+			BODY
+*******************************/
+body {
+	/*background:  #434A54;*/
+	height: 100%;
+	background: #171814 url(../img/huckle_bg.jpg) no-repeat;
+	background-size: cover;
+
+
+}
+
+/*******************************
+			HEADER
+*******************************/
+header {
+	width: 100%;
+	height: 4em;
+	background-color: #171814;
+	border-bottom:.15em solid #fff;
+	opacity: 0.7;
+}
+
+
+.mainHeader {
+	margin-left:3%;
+	font-size: 2em;
+	/*color: #BEC400;*/
+	color: #fff;
+	padding-top: 1%;
+}
+
+
+
+/*******************************
+			SECTION
+*******************************/
+.sectionBody {
+	width: 40%;
+	margin: auto auto;
+	margin-top: 5%;
+	border:.15em solid #FFF;
+	background: url(../img/hotcold.jpg) no-repeat;
+	background-size: cover;
+	border-radius: 15%;
+
+}
+
+.userInput {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20%;
+} 
+
+/*******************************
+		CONTAINER
+*******************************/
+.container p {
+	color: #fff;
+	margin: 20px auto;
+	width: 60%;
+	text-align: center;
+	font-size: 25px;
+	font-family: candara;
+
+}
+
+.container ul li {
+	display: inline-block;
+	width: 25%;
+	background-color: #D972FF; 
+	
+}
+.container ul li:first-child {
+	margin-left: 25%;
+}
+
+
+/*******************************
+			BUTTON
+*******************************/
+
+.newBtn {
+	font-size: 15px;
+	font-family: candara;
+	font-weight: 600;
+}
+button {
+	border:none;
+	width: 100%;
+	background-color: rgba(255,255,255,.3); 
+}
+ #one {
+	border-bottom-left-radius: 70%;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
+	border-bottom:1px solid #fff;
+}
+ #two {
+	border-bottom-right-radius: 70%;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
+	border-bottom:1px solid #fff;
+}
+
+#two:hover {
+	border-bottom:1px solid #000;
+}
+#one:hover {
+	border-bottom:1px solid #000;
+}
+
+/*******************************
+			USERSTATUS
+*******************************/
+
+.userStatus span {
+	/*color: #fff;*/
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+.userStatus {
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 8px 5px 8px;
+	background-color: rgba(40,40,40,0.1);
+	width: 50%;
+	margin: auto auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 25px;
+	text-align: center;
+}
+
+
+/*******************************
+			PROGRESBAR
+*******************************/
+
+.progBar{
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.progressbar {
+    color: #fff;
+    text-align: right;
+    height: 25px;
+    width: 0;
+    background-color: #0ba1b5;
+    border-radius: 3px;
+}

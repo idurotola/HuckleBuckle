@@ -1,0 +1,84 @@
+@media screen and (max-width: 480px) {
+
+	.mainHeader {
+
+	}
+	.sectionBody {
+		width: 90%;
+	}
+
+	#two {
+		border-bottom-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		text-align: center;
+		padding: 3px 8px;
+		/*border-top:1px solid #fff;*/
+		border-top:1px solid rgba(255,255,255,.3);
+	}
+	
+	#one {
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%;
+		border-bottom-left-radius: 0%;
+		border-bottom-right-radius: 0%;
+		text-align: center;
+		padding: 3px 8px;
+		border-top:1px solid #fff;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+
+	#two:hover {
+	border-bottom:1px solid #000;
+
+	}
+
+	#one:hover {
+		border-top:1px solid #000;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+
+	button {
+
+	}
+	.userInput {
+		margin-top: 10%;
+
+	}
+	.container ul li {
+		width: 52%;
+		margin-left: 25%;
+
+	}
+	.container ul li:first-child{
+		margin-top: 2%;
+		margin-bottom: 1%;
+
+	}
+}
+@media screen  and (min-width:481px) and (max-width: 590px){
+	.sectionBody {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width:980px) {
+	#two ,
+	#one {
+
+	}
+	.container ul li {
+	display: inline-block;
+	width: 35%;
+	background-color: #D972FF; 
+	
+	}
+	.container ul li:first-child {
+		margin-left: 15%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	#one,
+	#two {
+		padding: 4px 8px;
+	}
+}
